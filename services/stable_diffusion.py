@@ -13,7 +13,7 @@ from utils.exceptions import StabilityAIRequestError
 
 ENGINE_ID = 'stable-diffusion-512-v2-1'
 STABILITY_API_KEY = os.getenv('STABILITY_KEY')
-
+HUGGINGFACE_ACCESS_TOKEN = os.getenv('HUGGINGFACE_TOKEN')
 
 def create_image(user_input):
     prompt = openai_services.extract_draw_keywords(user_input)
