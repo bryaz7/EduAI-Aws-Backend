@@ -21,7 +21,7 @@ def create_image(user_input):
     logging.info('prompt after analyze: ', prompt)
 
     API_URL = "https://api-inference.huggingface.co/models/prompthero/openjourney"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer {HUGGINGFACE_ACCESS_TOKEN}"}
 
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
