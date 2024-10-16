@@ -1,0 +1,2 @@
+class HistoryMessageReportService:
+    pass

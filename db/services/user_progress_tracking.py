@@ -1,0 +1,2 @@
+class UserProgressTrackingService:
+    pass

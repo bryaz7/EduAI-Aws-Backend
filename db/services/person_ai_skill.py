@@ -1,0 +1,2 @@
+class PersonAISkillsService:
+    pass

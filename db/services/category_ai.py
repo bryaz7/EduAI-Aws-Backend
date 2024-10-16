@@ -1,0 +1,2 @@
+class CategoryAIService:
+    pass

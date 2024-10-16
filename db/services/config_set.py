@@ -1,0 +1,2 @@
+class ConfigSetService:
+    pass
