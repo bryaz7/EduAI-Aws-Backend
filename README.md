@@ -1,4 +1,4 @@
-# Bryaz7 - Backend Services
+# EduAI-Aws-Backend
 
 ## System Design
 
